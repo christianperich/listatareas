@@ -1,0 +1,28 @@
+.formulario {
+    margin-top: 20px;
+    
+}
+
+.formulario input {
+    padding: 8px 20px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 20px;
+    width: 50ch;
+}
+
+.formulario button {
+    padding: 8px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(221, 226, 221);
+    outline: none;
+    background-color: rgb(142, 143, 186);
+
+    transition: all 0.3s;
+}
+
+.formulario button:hover {
+    background-color: rgb(164, 165, 219);
+    cursor: pointer;
+}

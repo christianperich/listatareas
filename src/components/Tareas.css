@@ -1,0 +1,32 @@
+.titulo {
+    margin: 10px;
+    text-align: center;
+}
+
+.tareas {
+    width: 500px;
+    background-color: rgb(142, 143, 186);
+    padding: 30px;
+    border: 5px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(8, 11, 37);
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.tarea-btn{
+    color: white;
+    font-size: 23px;
+
+    transition: all 0.3s;
+}
+
+.tarea-btn:hover {
+    color: rgb(251, 46, 46);
+    cursor: pointer;
+}
