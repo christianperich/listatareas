@@ -24,10 +24,13 @@ function App() {
 
   return (
     <>
+      
       <TareasForm onSubmit={agregarTarea}/>
       <Tareas 
         tareas={tareas}
         eliminarTarea={eliminarTarea} />
+      
+      
     </>
   )
 }

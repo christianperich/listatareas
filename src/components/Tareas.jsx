@@ -9,7 +9,6 @@ export function Tareas({tareas, eliminarTarea}){
 
     return (
         <>
-            <h1 className='titulo'>Tareas Pendientes</h1>
             <ul className='tareas'>
                 {tareas.map((tarea) => 
                     <li key={tarea.id} className="tarea">

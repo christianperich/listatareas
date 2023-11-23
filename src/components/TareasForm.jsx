@@ -24,14 +24,19 @@ export function TareasForm({onSubmit}){
 
 
     return (
-        <form className="formulario" onSubmit={handleSubmit}>
-            <input 
-                name="tareas-form" 
-                placeholder="Ingresa una nueva tarea" 
-                onChange={handleChange}
-                value={input}
-                required />
-            <button>Agregar tarea</button>
-        </form>
+        <>
+           <h1 className="titulo">Lista de Tareas</h1>
+            <form className="formulario" onSubmit={handleSubmit}>
+                <input 
+                    name="tareas-form" 
+                    placeholder="Ingresa una nueva tarea" 
+                    onChange={handleChange}
+                    value={input}
+                    required />
+                <button>Agregar tarea</button>
+            </form> 
+        </>
+
+        
     )
 }
